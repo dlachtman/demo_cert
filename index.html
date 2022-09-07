@@ -41,7 +41,7 @@
 
       function render() {
         var flagValue = ldclient.variation('chat-bot', false);
-        var label = (flagValue ? 'Showing' : 'Not showing') + ' your feature to ' + user.key;
+        var label = (flagValue ? 'Showing' : 'Not showing') + ' your feature to ' + item.name;
         console.log("SDK successfully connected! The value of chat-bot is " + flagValue + " for " + item.name)
         div.replaceChild(document.createTextNode(label), div.firstChild);
       }
