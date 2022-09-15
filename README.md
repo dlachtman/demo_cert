@@ -1,7 +1,7 @@
 
 # chat-bot feature flag example
 
-With this sample code, create your own Feature Flag in LaunchDarkly and see the flag working in your browser. Using the LaunchDarkly JS SDK, this code runs a feature called chat-bot which iterates through a list of users and assigns one a variation. Ths user and variation are then displayed on each reload in your browser. To make your flag:
+With this sample code, create your own Feature Flag in LaunchDarkly and see the flag working in your browser. Using the LaunchDarkly JS SDK, this code runs a feature called chat-bot which iterates through a list of users and assigns one a variation. A random user and assigned variation are then displayed on each reload in your browser. To make your flag:
 
 1. Copy the ```index.html``` file to your own repository
 2. Change line 6 to ```<title>YOUR_NAME Chat</title>```
